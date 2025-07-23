@@ -1,7 +1,10 @@
-export default function Home() {
-    return (
-        <div className="container">
-        <h2>Search Movies</h2>
-        </div>
-    )
+import React, { useState } from "react";
+
+function Home() {
+return (
+    <>
+    </>
+)
 }
+
+export default Home;

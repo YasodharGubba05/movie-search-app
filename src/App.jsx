@@ -9,10 +9,10 @@ function App() {
     <>
     <Router>
       <header className="navbar">
-        <h1>🎬 Movie Explorer</h1>
+        <h1 className="title">🎬 Movie Explorer</h1>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/favorites">Favorites</Link>
+        <Link to="/" className="home">Home</Link> 
+        <Link to="/favorites" className="fav">Favorites</Link>
         </nav>
       </header>
 
